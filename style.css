@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-*{
+* {
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -36,28 +37,32 @@ body {
     font-weight: 800;
 }
 
-img{
+img {
     height: auto;
     width: 500px;
 }
 
-.hero{
+.hero {
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
-.hero h1{
+.hero h1 {
     font-size: 48px;
     font-weight: 800;
     margin: 0;
 }
 
-.hero p{
-    margin: 0;
+p {
     font-size: 18px;
+    margin: 0;
+}
+
+.hero p {
     color: #e5e7eb;
 }
-.hero button{
+
+.hero button {
     background-color: #3882f6;
     border: none;
     height: 40px;
@@ -68,29 +73,30 @@ img{
     margin-top: 10px;
 }
 
-.section-one{
+.section-one {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.container{
+.container {
     display: flex;
     gap: 50px;
 }
 
-.blue-box-container{
+.blue-box-container {
     width: 170px;
     text-align: center;
 }
-.section-one h1{
+
+.section-one h1 {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
 }
 
-.blue-box{
+.blue-box {
     height: 170px;
     width: 170px;
     border: 5px solid #3882f6;
