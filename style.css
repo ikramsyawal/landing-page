@@ -32,3 +32,35 @@ body {
 .logo {
     font-weight: 800;
 }
+
+img{
+    height: auto;
+    width: 500px;
+}
+
+.hero{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.hero p{
+    margin: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero button{
+    background-color: #3882f6;
+    border: none;
+    height: 40px;
+    width: 130px;
+    color: #f9faf8;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
