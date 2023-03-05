@@ -101,6 +101,7 @@ p {
 .blue-box {
     height: 170px;
     width: 170px;
-    border: 5px solid #3882f6;
-    border-radius: 30px;
+    border: 4px solid #3882f6;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
