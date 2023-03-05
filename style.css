@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -126,4 +126,39 @@ p {
     font-weight: 700;
     font-style: normal;
     font-size: 24px;
+}
+
+.section-three{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-banner{
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    width: 1024px;
+    padding: 50px 120px;
+    border-radius: 10px;
+    color: #f9faf8;
+}
+
+.sign-banner button{
+    width: 130px;
+    height: 40px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.sign-banner h1{
+    margin: 0;
+    font-size: 28px;
 }
